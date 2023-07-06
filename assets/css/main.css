@@ -13,8 +13,8 @@
 /* Fonts */
 :root {
   --font-default: "Open Sans", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-  --font-primary: "Montserrat", sans-serif;
-  --font-secondary: "Raleway", sans-serif;
+  --font-primary: "Raleway", sans-serif;
+  --font-secondary: "Queen Signature Duo", sans-serif;
 }
 
 /* Colors */
@@ -503,9 +503,11 @@ section {
   z-index: 3;
 }
 
+
+
 #hero {
-  background-image: url("../../images/index.png");
-  background-position: 475px center;
+  background-image: url("../../images/background.png");
+  background-size: cover;
 }
 
 @media (max-width: 1034px) {
@@ -557,7 +559,7 @@ section {
 .hero:before {
   position: absolute;
   content: "";
-  background: #00a50b62;
+  background: #00500562;
   inset: 0;
 }
 
@@ -596,7 +598,7 @@ section {
 }
 
 .hero .btn-get-started {
-  font-family: var(--font-secondary);
+  font-family: var(--font-primary);
   font-weight: 500;
   font-size: 15px;
   letter-spacing: 1px;
@@ -2291,4 +2293,17 @@ b {
 #num {
   font-size: 3rem;
   box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+}
+
+#teamMemberPic {
+  max-width: 100%;
+}
+
+.col-12 {
+  max-width: 85%;
+}
+
+#playerPic {
+  max-width: 300px;
+  max-height: 300px;
 }
