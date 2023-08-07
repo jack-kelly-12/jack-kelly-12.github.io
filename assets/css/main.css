@@ -2307,3 +2307,32 @@ b {
   max-width: 300px;
   max-height: 300px;
 }
+
+.image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 20vh; /* Adjust this to your preference */
+  margin-bottom: 80px;
+}
+
+.image-container img {
+  max-width: 20%; /* Adjust this to control the image size */
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  background-color: white;
+}
+
+.horizontal-line {
+  width: 50%;
+  height: 2px;
+  background-color: #ccc;
+  margin: 10px 0;
+}
+
+.lines-container {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
