@@ -498,13 +498,13 @@ section {
   width: 100%;
   min-height: 100vh;
   position: relative;
-  background-position: 590px 0px;
+  background-position: 600px 0px;
   z-index: 3;
 }
 
 #hero {
-  background-image: url("../../images/Website\ Home\ Page\ 2024-11-22.png");
-  background-size: 65% auto;
+  background-image: url("../../images/extended_webpage.jpg");
+  background-size: 70% auto;
   background-repeat: no-repeat;
 }
 
