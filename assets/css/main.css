@@ -2303,7 +2303,7 @@ b {
 }
 
 #playerPic {
-  max-width: 300px;
+  max-width: 250px;
   max-height: 300px;
 }
 
@@ -2311,16 +2311,36 @@ b {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 20vh; /* Adjust this to your preference */
+  height: 20vh;
   margin-bottom: 80px;
 }
 
 .image-container img {
-  max-width: 20%; /* Adjust this to control the image size */
+  max-width: 20%;
   height: auto;
   border-radius: 10px;
   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
   background-color: white;
+}
+
+/* Mobile adjustments */
+@media screen and (max-width: 768px) {
+  .image-container {
+    height: 25vh; /* Slightly taller on mobile */
+    margin-bottom: 100px; /* Reduced margin on mobile */
+  }
+  
+  .image-container img {
+    max-width: 30%; /* Larger relative width on mobile */
+  }
+}
+
+/* Small mobile devices */
+@media screen and (max-width: 480px) {
+  .image-container img {
+    max-width: 85%;
+    min-width: 200px;
+  }
 }
 
 .horizontal-line {
